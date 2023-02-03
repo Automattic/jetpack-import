@@ -1,4 +1,3 @@
-
 {
 	"name": "automattic/jetpack-import",
 	"description": "Set of REST API routes used in WPCOM Unified Importer.",
@@ -7,7 +6,7 @@
 	"require": {},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.4",
-		"automattic/jetpack-changelogger": "@dev",
+		"automattic/jetpack-changelogger": "^3.3.1",
 		"automattic/wordbless": "dev-master"
 	},
 	"autoload": {
@@ -30,15 +29,6 @@
 		"post-install-cmd": "WorDBless\\Composer\\InstallDropin::copy",
 		"post-update-cmd": "WorDBless\\Composer\\InstallDropin::copy"
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../../packages/*",
-			"options": {
-				"monorepo": true
-			}
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"config": {
