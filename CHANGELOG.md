@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Removed
+- General: Update minimum PHP version to 7.2.
+
 ## [0.8.11] - 2024-11-04
 ### Added
 - Enable test coverage. [#39961]
@@ -122,6 +129,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fixed various imported resources hierarchies [#29012]
 
+[0.9.0-alpha]: https://github.com/Automattic/jetpack-import/compare/v0.8.11...v0.9.0-alpha
 [0.8.11]: https://github.com/Automattic/jetpack-import/compare/v0.8.10...v0.8.11
 [0.8.10]: https://github.com/Automattic/jetpack-import/compare/v0.8.9...v0.8.10
 [0.8.9]: https://github.com/Automattic/jetpack-import/compare/v0.8.8...v0.8.9
