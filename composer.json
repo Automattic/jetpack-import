@@ -5,8 +5,8 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-connection": "^6.18.5",
-		"automattic/jetpack-sync": "^4.21.1"
+		"automattic/jetpack-connection": "^6.18.6-alpha",
+		"automattic/jetpack-sync": "^4.21.2-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
